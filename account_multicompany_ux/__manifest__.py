@@ -25,7 +25,7 @@
     "license": "AGPL-3",
     "depends": [
         "account",
-        "account_reports",
+        #"account_reports", Esta dependencia se comenta porque no la tenemos en 18.0 community
         "sale",  # solo por property_account_downpayment_categ_id, ideal en proximas versiones evitar esta dependencia
     ],
     "data": [
